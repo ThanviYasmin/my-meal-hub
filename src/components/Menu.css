@@ -1,0 +1,35 @@
+.menu-container {
+    padding: 20px;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .category-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .category-name {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+  

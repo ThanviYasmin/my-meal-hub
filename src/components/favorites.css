@@ -1,0 +1,31 @@
+/* meals.css */
+
+/* Style the images within the meals list */
+#button{
+    color: red;
+}
+#heading {
+    margin-top: 50px; /* Add top margin to the heading */
+    margin-bottom: 20px; /* Add bottom margin to the heading */
+    text-align: center; /* Center-align the heading */
+  }
+  
+  .meals-list img {
+    max-width: 70%; /* Set maximum width to 70% of parent container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the images */
+  }
+  
+  .meals-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    display: flex; /* Display meals horizontally */
+    flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+  }
+  
+  .meals-list li {
+    flex: 0 0 calc(33.33% - 20px); /* Each meal item takes up about 33.33% of the container width with spacing */
+    margin: 10px; /* Add margin around each meal item */
+    text-align: center; /* Center-align the meal item */
+  }
+  

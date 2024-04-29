@@ -1,0 +1,86 @@
+/* Styles for the navbar component */
+
+/* Styling for the entire navbar */
+.navbar {
+    background-color: #333; /* Set background color of the navbar */
+    color: #fff; /* Set text color to white */
+    padding: 0px; /* Add padding inside the navbar */
+    position: fixed; /* Fix the navbar position at the top of the viewport */
+    top: 0; /* Position the navbar at the top */
+    left: 0; /* Align the navbar to the left side */
+    width: 100%; /* Make the navbar span the full width of the viewport */
+    z-index: 1000; /* Ensure the navbar stays above other content */
+  }  
+  /* Container for the navbar content */
+  .navbar-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Place content at the ends of the container */
+    align-items: center; /* Center content vertically */
+    max-width: 1500px; /* Set maximum width for content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  /* Styling for the logo/link in the navbar */
+  .logo {
+    font-size: 1.5rem; /* Set font size for the logo */
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  /* Styling for the hamburger menu icon */
+  .menu-icon {
+    font-size: 1.5rem; /* Set font size for the icon */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    order: -1; /* Move the hamburger icon to the left */
+  }
+  
+  /* Styling for the navigation menu */
+  .nav-menu {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack menu items vertically */
+    align-items: center; /* Center menu items horizontally */
+    position: fixed; /* Fix the position of the menu */
+    top: 31.5px; /* Position the menu below the navbar */
+    left: 0; /* Align the menu to the left side */
+    height: calc(100vh - 10px); /* Set height to fill remaining viewport height */
+    width: 25%; /* Make the menu span the full width of the viewport */
+    background-color: #222; /* Set background color of the menu */
+    transform: translateX(-100%); /* Slide menu off the screen initially */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  /* Styling for the active state of the navigation menu (when visible) */
+  .nav-menu.active {
+    transform: translateX(0); /* Slide menu into view */
+  }
+  
+  /* Styling for individual navigation items */
+  .nav-item {
+    margin: 20px 0; /* Add margin above and below each menu item */
+  }
+  
+  /* Styling for navigation links */
+  .nav-link {
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.2rem; /* Set font size for menu items */
+    transition: color 0.3s ease; /* Add transition for color change on hover */
+  }
+  
+  /* Styling for hover state of navigation links */
+  .nav-link:hover {
+    color: #ffd700; /* Change text color to gold on hover */
+  }
+  /* Styling for the footer item in the navigation menu */
+.footer-item {
+    margin-top: auto; /* Push the footer item to the bottom of the menu */
+    padding-top: 10px; /* Add padding above the footer text */
+    border-top: 1px solid #fff; /* Optional: Add a border above the footer text */
+    color: #fff; /* Set text color to white */
+    font-size: 0.9rem; /* Adjust font size for the footer text */
+    text-align: center; /* Center-align the footer text */
+  }
+  

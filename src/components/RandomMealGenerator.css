@@ -1,0 +1,37 @@
+/* randomMealGenerator.css */
+#msg{
+    color:goldenrod;
+    font-size: 26px;
+    font-family:cursive;
+}
+.random-meal-container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  .random-meal-container img {
+    max-width: 25%; /* Set maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the image */
+    margin-bottom: 10px; /* Add spacing below the image */
+    margin-top: 10px;
+    border: 5px solid;
+
+  }
+  
+  .generate-button {
+    padding: 10px 20px;
+    background-color:goldenrod; /* Blue background color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-button:hover {
+    background-color: green; /* Darker blue on hover */
+  }
+  

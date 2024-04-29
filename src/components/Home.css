@@ -1,0 +1,49 @@
+
+#heading{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
+
+.home-container {
+    text-align: center;
+    background-image: url("C:/Users/Faiz/my-food-hub/public/download..jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the body fills the entire viewport height */
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
+  
+  .action-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding:35px;
+  }
+  
+  .action-box {
+    flex: 1; /* Each box takes an equal portion of the space */
+    padding: 15px;
+    margin: 0 20px; /* Add margin on both sides of each box */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .action-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .box-link {
+    text-decoration: none;
+    color: inherit;
+  }
